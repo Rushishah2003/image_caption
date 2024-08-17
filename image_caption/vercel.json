@@ -15,8 +15,17 @@
       "dest": "/app.py"
     }
   ],
+  "build": {
+    "env": {
+      "PYTHON_VERSION": "3.8" 
+    },
+    "commands": [
+      "./build.sh"
+    ]
+  },
   "env": {
     "PORT": "8080"
   }
 }
+
 

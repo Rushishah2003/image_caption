@@ -18,6 +18,5 @@ def name():
   caption = processor.decode(out[0], skip_special_tokens=True)
   return render_template('image_caption.html', caption=caption)
 
-if __name__ == '__main__':
-  app.run(host='0.0.0.0',port=5000,debug=True)
+
 
